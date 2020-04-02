@@ -292,6 +292,26 @@ a.button.secondary {
     @include flex-center;
     a {
       margin: 0 10px;
+      width: 32px;
+      height: 32px;
+    }
+    .facebook {
+      background: url('images/core-img/icon-facebook.svg') no-repeat center;
+    }
+    .facebook:hover, .facebook:focus {
+      background: url('images/core-img/icon-facebook-hover.svg') no-repeat center;
+    }
+    .twitter {
+      background: url('images/core-img/icon-twitter.svg') no-repeat center;
+    }
+    .twitter:hover, .twitter:focus {
+      background: url('images/core-img/icon-twitter-hover.svg') no-repeat center;
+    }
+    .instagram {
+      background: url('images/core-img/icon-instagram.svg') no-repeat center;
+    }
+    .instagram:hover, .instagram:focus {
+      background: url('images/core-img/icon-instagram-hover.svg') no-repeat center;
     }
   }
 }
@@ -363,5 +383,19 @@ a.button.secondary {
        margin: 0;
       }
     }
+  }
+}
+@media(max-width: 480px) {
+  #intro > div {
+    padding: 20px 0;
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
+  .download-buttons {
+    margin-top: 20px;
+  }
+  #snippets {
+    padding: 40px 30px;
   }
 }
